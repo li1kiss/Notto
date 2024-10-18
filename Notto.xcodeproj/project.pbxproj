@@ -11,6 +11,8 @@
 		DFF8A5E22CC1913B001BF758 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5E12CC1913B001BF758 /* ContentView.swift */; };
 		DFF8A5E42CC1913C001BF758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E32CC1913C001BF758 /* Assets.xcassets */; };
 		DFF8A5E72CC1913C001BF758 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */; };
+		DFF8A5EE2CC1A43B001BF758 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5ED2CC1A43B001BF758 /* MainView.swift */; };
+		DFF8A5F02CC1C851001BF758 /* ToolBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5EF2CC1C851001BF758 /* ToolBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DFF8A5E12CC1913B001BF758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFF8A5E32CC1913C001BF758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFF8A5ED2CC1A43B001BF758 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DFF8A5EF2CC1C851001BF758 /* ToolBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		DFF8A5DE2CC1913B001BF758 /* Notto */ = {
 			isa = PBXGroup;
 			children = (
-				DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */,
 				DFF8A5E12CC1913B001BF758 /* ContentView.swift */,
+				DFF8A5EF2CC1C851001BF758 /* ToolBarButton.swift */,
+				DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */,
+				DFF8A5ED2CC1A43B001BF758 /* MainView.swift */,
 				DFF8A5E32CC1913C001BF758 /* Assets.xcassets */,
 				DFF8A5E52CC1913C001BF758 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF8A5E22CC1913B001BF758 /* ContentView.swift in Sources */,
+				DFF8A5F02CC1C851001BF758 /* ToolBarButton.swift in Sources */,
+				DFF8A5EE2CC1A43B001BF758 /* MainView.swift in Sources */,
 				DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
