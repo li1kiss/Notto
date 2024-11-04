@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct NottoApp: App {
+    
+    @StateObject var appViewModel = AppViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if appViewModel.isLoggedIn {
+                ContentView()
+                    .environmentObject(appViewModel)
+            } else {
+                LoginView()
+                    .environmentObject(appViewModel)
+            }
         }
     }
 }

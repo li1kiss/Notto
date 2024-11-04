@@ -9,11 +9,6 @@ struct ContentView: View {
                 // TabView
                 TabView {
                     
-                    MainView() // Ваш основний вигляд
-                        .tabItem {
-                            Label("Overview", systemImage: "car.fill")
-                        }
-                    
                     StatisticsView() // Ваш окремий вигляд для статистики
                         .tabItem {
                             Label("Statistics", systemImage: "chart.bar.fill")
@@ -58,17 +53,7 @@ struct ContentView: View {
                         Button("", systemImage: "person"){}
                             .foregroundStyle(.black)
                         Spacer()
-                        Picker("Select a car", selection: $carSelected) {
-                                                    ForEach(cars, id: \.self) {
-                                                        Text($0)
-                                                            
-                                                    }
-                                                }
-                        .pickerStyle(.menu) // Використовуйте стиль меню
-                        .accentColor(.black)
-                                                .padding(.horizontal)
-                        
-                        Spacer() // Відступ для кнопок справа
+                
                         Button(action: {
                             // Додайте дію для кнопки "gear"
                             print("Settings pressed")

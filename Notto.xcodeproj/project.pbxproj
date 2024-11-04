@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */; };
+		DFAC38B02CD8195C00F69433 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38AF2CD8195C00F69433 /* RegisterView.swift */; };
+		DFAC38B22CD921B900F69433 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B12CD921B900F69433 /* MainView.swift */; };
+		DFAC38B52CD9285B00F69433 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B42CD9285B00F69433 /* HeaderView.swift */; };
+		DFAC38B72CD9287200F69433 /* StatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B62CD9287100F69433 /* StatsCardView.swift */; };
+		DFAC38B92CD928A500F69433 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B82CD928A500F69433 /* RemindersView.swift */; };
+		DFAC38BB2CD928BA00F69433 /* RecentActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */; };
+		DFAC38BD2CD929A200F69433 /* StatisticsDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */; };
+		DFAC38BF2CD929DF00F69433 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */; };
 		DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */; };
 		DFF8A5E22CC1913B001BF758 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5E12CC1913B001BF758 /* ContentView.swift */; };
 		DFF8A5E42CC1913C001BF758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E32CC1913C001BF758 /* Assets.xcassets */; };
 		DFF8A5E72CC1913C001BF758 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */; };
-		DFF8A5EE2CC1A43B001BF758 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5ED2CC1A43B001BF758 /* MainView.swift */; };
-		DFF8A5F02CC1C851001BF758 /* ToolBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5EF2CC1C851001BF758 /* ToolBarButton.swift */; };
+		DFF8A5F62CC3D9CB001BF758 /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */; };
+		DFF8A5FA2CC844E6001BF758 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5F92CC844E6001BF758 /* LoginView.swift */; };
+		DFF8A5FC2CC84558001BF758 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5FB2CC84558001BF758 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		DFAC38AF2CD8195C00F69433 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		DFAC38B12CD921B900F69433 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DFAC38B42CD9285B00F69433 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DFAC38B62CD9287100F69433 /* StatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardView.swift; sourceTree = "<group>"; };
+		DFAC38B82CD928A500F69433 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivitiesView.swift; sourceTree = "<group>"; };
+		DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDisplayView.swift; sourceTree = "<group>"; };
+		DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
 		DFF8A5DC2CC1913B001BF758 /* Notto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NottoApp.swift; sourceTree = "<group>"; };
 		DFF8A5E12CC1913B001BF758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFF8A5E32CC1913C001BF758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DFF8A5ED2CC1A43B001BF758 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		DFF8A5EF2CC1C851001BF758 /* ToolBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarButton.swift; sourceTree = "<group>"; };
+		DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
+		DFF8A5F92CC844E6001BF758 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DFF8A5FB2CC84558001BF758 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DFAC38B32CD9283C00F69433 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC38B12CD921B900F69433 /* MainView.swift */,
+				DFAC38B42CD9285B00F69433 /* HeaderView.swift */,
+				DFAC38B62CD9287100F69433 /* StatsCardView.swift */,
+				DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */,
+				DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */,
+				DFAC38B82CD928A500F69433 /* RemindersView.swift */,
+				DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
 		DFF8A5D32CC1913B001BF758 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				DFF8A5E12CC1913B001BF758 /* ContentView.swift */,
-				DFF8A5EF2CC1C851001BF758 /* ToolBarButton.swift */,
+				DFAC38B32CD9283C00F69433 /* MainViews */,
 				DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */,
-				DFF8A5ED2CC1A43B001BF758 /* MainView.swift */,
+				DFF8A5F92CC844E6001BF758 /* LoginView.swift */,
+				DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */,
+				DFAC38AF2CD8195C00F69433 /* RegisterView.swift */,
+				DFF8A5FD2CC85E3C001BF758 /* Елементи  */,
+				DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */,
 				DFF8A5E32CC1913C001BF758 /* Assets.xcassets */,
 				DFF8A5E52CC1913C001BF758 /* Preview Content */,
 			);
@@ -71,6 +109,14 @@
 				DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFF8A5FD2CC85E3C001BF758 /* Елементи  */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8A5FB2CC84558001BF758 /* InputView.swift */,
+			);
+			path = "Елементи ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +189,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF8A5FA2CC844E6001BF758 /* LoginView.swift in Sources */,
+				DFAC38BD2CD929A200F69433 /* StatisticsDisplayView.swift in Sources */,
+				DFAC38B52CD9285B00F69433 /* HeaderView.swift in Sources */,
+				DFAC38BF2CD929DF00F69433 /* QuickActionsView.swift in Sources */,
+				DFAC38B22CD921B900F69433 /* MainView.swift in Sources */,
+				DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */,
+				DFAC38B72CD9287200F69433 /* StatsCardView.swift in Sources */,
 				DFF8A5E22CC1913B001BF758 /* ContentView.swift in Sources */,
-				DFF8A5F02CC1C851001BF758 /* ToolBarButton.swift in Sources */,
-				DFF8A5EE2CC1A43B001BF758 /* MainView.swift in Sources */,
+				DFAC38BB2CD928BA00F69433 /* RecentActivitiesView.swift in Sources */,
+				DFAC38B02CD8195C00F69433 /* RegisterView.swift in Sources */,
+				DFF8A5FC2CC84558001BF758 /* InputView.swift in Sources */,
+				DFAC38B92CD928A500F69433 /* RemindersView.swift in Sources */,
+				DFF8A5F62CC3D9CB001BF758 /* ApiCalls.swift in Sources */,
 				DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
