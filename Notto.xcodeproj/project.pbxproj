@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */; };
+		DF4F43692CF27110007BD77E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F43682CF27110007BD77E /* test.swift */; };
+		DF72FC4A2CDD431800424710 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72FC492CDD431800424710 /* MainTabView.swift */; };
 		DFAC38B02CD8195C00F69433 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38AF2CD8195C00F69433 /* RegisterView.swift */; };
 		DFAC38B22CD921B900F69433 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B12CD921B900F69433 /* MainView.swift */; };
 		DFAC38B52CD9285B00F69433 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B42CD9285B00F69433 /* HeaderView.swift */; };
@@ -17,7 +19,6 @@
 		DFAC38BD2CD929A200F69433 /* StatisticsDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */; };
 		DFAC38BF2CD929DF00F69433 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */; };
 		DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */; };
-		DFF8A5E22CC1913B001BF758 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5E12CC1913B001BF758 /* ContentView.swift */; };
 		DFF8A5E42CC1913C001BF758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E32CC1913C001BF758 /* Assets.xcassets */; };
 		DFF8A5E72CC1913C001BF758 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */; };
 		DFF8A5F62CC3D9CB001BF758 /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		DF4F43682CF27110007BD77E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		DF72FC492CDD431800424710 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		DFAC38AF2CD8195C00F69433 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		DFAC38B12CD921B900F69433 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DFAC38B42CD9285B00F69433 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -37,7 +40,6 @@
 		DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
 		DFF8A5DC2CC1913B001BF758 /* Notto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NottoApp.swift; sourceTree = "<group>"; };
-		DFF8A5E12CC1913B001BF758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFF8A5E32CC1913C001BF758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
@@ -56,9 +58,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DFAC38B32CD9283C00F69433 /* MainViews */ = {
+		DFDE11A82CF6701900ECCD84 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFDE11A92CF6703500ECCD84 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DFDE11AA2CF6704300ECCD84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8A5F92CC844E6001BF758 /* LoginView.swift */,
+				DFF8A5FB2CC84558001BF758 /* InputView.swift */,
+				DF72FC492CDD431800424710 /* MainTabView.swift */,
 				DFAC38B12CD921B900F69433 /* MainView.swift */,
 				DFAC38B42CD9285B00F69433 /* HeaderView.swift */,
 				DFAC38B62CD9287100F69433 /* StatsCardView.swift */,
@@ -66,8 +86,24 @@
 				DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */,
 				DFAC38B82CD928A500F69433 /* RemindersView.swift */,
 				DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */,
+				DFAC38AF2CD8195C00F69433 /* RegisterView.swift */,
 			);
-			path = MainViews;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFDE11AB2CF6705100ECCD84 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DFDE11AC2CF6706700ECCD84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8A5E32CC1913C001BF758 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		DFF8A5D32CC1913B001BF758 = {
@@ -89,16 +125,15 @@
 		DFF8A5DE2CC1913B001BF758 /* Notto */ = {
 			isa = PBXGroup;
 			children = (
-				DFF8A5E12CC1913B001BF758 /* ContentView.swift */,
-				DFAC38B32CD9283C00F69433 /* MainViews */,
 				DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */,
-				DFF8A5F92CC844E6001BF758 /* LoginView.swift */,
-				DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */,
-				DFAC38AF2CD8195C00F69433 /* RegisterView.swift */,
-				DFF8A5FD2CC85E3C001BF758 /* Елементи  */,
+				DFDE11A82CF6701900ECCD84 /* Models */,
+				DFDE11AA2CF6704300ECCD84 /* Views */,
+				DFDE11A92CF6703500ECCD84 /* ViewModels */,
+				DF4F43682CF27110007BD77E /* test.swift */,
 				DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */,
-				DFF8A5E32CC1913C001BF758 /* Assets.xcassets */,
+				DFDE11AC2CF6706700ECCD84 /* Resources */,
 				DFF8A5E52CC1913C001BF758 /* Preview Content */,
+				DFDE11AB2CF6705100ECCD84 /* Services */,
 			);
 			path = Notto;
 			sourceTree = "<group>";
@@ -109,14 +144,6 @@
 				DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DFF8A5FD2CC85E3C001BF758 /* Елементи  */ = {
-			isa = PBXGroup;
-			children = (
-				DFF8A5FB2CC84558001BF758 /* InputView.swift */,
-			);
-			path = "Елементи ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,12 +223,13 @@
 				DFAC38B22CD921B900F69433 /* MainView.swift in Sources */,
 				DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */,
 				DFAC38B72CD9287200F69433 /* StatsCardView.swift in Sources */,
-				DFF8A5E22CC1913B001BF758 /* ContentView.swift in Sources */,
 				DFAC38BB2CD928BA00F69433 /* RecentActivitiesView.swift in Sources */,
 				DFAC38B02CD8195C00F69433 /* RegisterView.swift in Sources */,
+				DF72FC4A2CDD431800424710 /* MainTabView.swift in Sources */,
 				DFF8A5FC2CC84558001BF758 /* InputView.swift in Sources */,
 				DFAC38B92CD928A500F69433 /* RemindersView.swift in Sources */,
 				DFF8A5F62CC3D9CB001BF758 /* ApiCalls.swift in Sources */,
+				DF4F43692CF27110007BD77E /* test.swift in Sources */,
 				DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
