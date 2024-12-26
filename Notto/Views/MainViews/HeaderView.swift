@@ -45,16 +45,15 @@ struct HeaderView: View {
                 .buttonStyle(StandardButtonStyle())
                 
                 
-                Button(action: {
-                    print("gear")
-                    authService.handleLogout()
-                }) {
+                NavigationLink(destination: {
+                    SettingsMainView()
+                }, label: {
                     Image(systemName: "gear")
                         .font(.title2)
                         .padding(0)
                         .frame(maxWidth: 50, maxHeight: 50, alignment: .center)
                         
-                }
+                })
                 .buttonStyle(StandardButtonStyle())
             }
         }
