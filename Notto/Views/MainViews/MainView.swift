@@ -56,5 +56,6 @@ struct MainView: View {
 
 #Preview {
     MainView()
+        .environmentObject(TabState())
 }
 

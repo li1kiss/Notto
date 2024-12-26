@@ -49,7 +49,7 @@ struct StatisticsDisplayView: View {
                     .font(.system(size: 12))
                     .fontWeight(.regular)
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.statisticsTitle)
+                    .foregroundColor(Color("secondaryTextColor"))
             }
         }
     }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HeaderView: View {
-    @EnvironmentObject var appViewModel: AppViewModel
+    @EnvironmentObject var authService: AuthService
     var body: some View {
         HStack {
             Image("userCarLogo")
@@ -47,7 +47,7 @@ struct HeaderView: View {
                 
                 Button(action: {
                     print("gear")
-                    appViewModel.handleLogout()
+                    authService.handleLogout()
                 }) {
                     Image(systemName: "gear")
                         .font(.title2)

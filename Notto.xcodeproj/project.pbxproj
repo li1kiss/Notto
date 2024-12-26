@@ -3,49 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */; };
+		DF456A8A2CF936FF00916F11 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF456A892CF936FF00916F11 /* UserServices.swift */; };
+		DF456A8C2CF9379400916F11 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF456A8B2CF9379400916F11 /* AuthService.swift */; };
 		DF4F43692CF27110007BD77E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F43682CF27110007BD77E /* test.swift */; };
-		DF72FC4A2CDD431800424710 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72FC492CDD431800424710 /* MainTabView.swift */; };
-		DFAC38B02CD8195C00F69433 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38AF2CD8195C00F69433 /* RegisterView.swift */; };
-		DFAC38B22CD921B900F69433 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B12CD921B900F69433 /* MainView.swift */; };
-		DFAC38B52CD9285B00F69433 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B42CD9285B00F69433 /* HeaderView.swift */; };
-		DFAC38B72CD9287200F69433 /* StatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B62CD9287100F69433 /* StatsCardView.swift */; };
-		DFAC38B92CD928A500F69433 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38B82CD928A500F69433 /* RemindersView.swift */; };
-		DFAC38BB2CD928BA00F69433 /* RecentActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */; };
-		DFAC38BD2CD929A200F69433 /* StatisticsDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */; };
-		DFAC38BF2CD929DF00F69433 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */; };
+		DF88C3852CFFBA65002E9B59 /* PasswordFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88C3842CFFBA65002E9B59 /* PasswordFieldView.swift */; };
+		DFAFD1BE2CF747BD005747BA /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFD1BD2CF747BD005747BA /* Extentions.swift */; };
 		DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */; };
 		DFF8A5E42CC1913C001BF758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E32CC1913C001BF758 /* Assets.xcassets */; };
 		DFF8A5E72CC1913C001BF758 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */; };
 		DFF8A5F62CC3D9CB001BF758 /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */; };
-		DFF8A5FA2CC844E6001BF758 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5F92CC844E6001BF758 /* LoginView.swift */; };
-		DFF8A5FC2CC84558001BF758 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8A5FB2CC84558001BF758 /* InputView.swift */; };
+		DFF9FC5A2CF7FCF700E94852 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9FC592CF7FCF700E94852 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		DF456A892CF936FF00916F11 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		DF456A8B2CF9379400916F11 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		DF4F43682CF27110007BD77E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		DF72FC492CDD431800424710 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		DFAC38AF2CD8195C00F69433 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		DFAC38B12CD921B900F69433 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		DFAC38B42CD9285B00F69433 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		DFAC38B62CD9287100F69433 /* StatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardView.swift; sourceTree = "<group>"; };
-		DFAC38B82CD928A500F69433 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
-		DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivitiesView.swift; sourceTree = "<group>"; };
-		DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDisplayView.swift; sourceTree = "<group>"; };
-		DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
+		DF88C3842CFFBA65002E9B59 /* PasswordFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFieldView.swift; sourceTree = "<group>"; };
+		DFAFD1BD2CF747BD005747BA /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DFF8A5DC2CC1913B001BF758 /* Notto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NottoApp.swift; sourceTree = "<group>"; };
 		DFF8A5E32CC1913C001BF758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF8A5E62CC1913C001BF758 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
-		DFF8A5F92CC844E6001BF758 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		DFF8A5FB2CC84558001BF758 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		DFF9FC592CF7FCF700E94852 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DF6E3C262D17562E007C2D1F /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DFF8A5D92CC1913B001BF758 /* Frameworks */ = {
@@ -73,27 +65,11 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		DFDE11AA2CF6704300ECCD84 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DFF8A5F92CC844E6001BF758 /* LoginView.swift */,
-				DFF8A5FB2CC84558001BF758 /* InputView.swift */,
-				DF72FC492CDD431800424710 /* MainTabView.swift */,
-				DFAC38B12CD921B900F69433 /* MainView.swift */,
-				DFAC38B42CD9285B00F69433 /* HeaderView.swift */,
-				DFAC38B62CD9287100F69433 /* StatsCardView.swift */,
-				DFAC38BC2CD929A200F69433 /* StatisticsDisplayView.swift */,
-				DFAC38BE2CD929DF00F69433 /* QuickActionsView.swift */,
-				DFAC38B82CD928A500F69433 /* RemindersView.swift */,
-				DFAC38BA2CD928BA00F69433 /* RecentActivitiesView.swift */,
-				DFAC38AF2CD8195C00F69433 /* RegisterView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		DFDE11AB2CF6705100ECCD84 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				DF456A892CF936FF00916F11 /* UserServices.swift */,
+				DF456A8B2CF9379400916F11 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -101,6 +77,7 @@
 		DFDE11AC2CF6706700ECCD84 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DFAFD1BD2CF747BD005747BA /* Extentions.swift */,
 				DFF8A5E32CC1913C001BF758 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -126,10 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				DFF8A5DF2CC1913B001BF758 /* NottoApp.swift */,
+				DFF9FC592CF7FCF700E94852 /* ContentView.swift */,
+				DF6E3C262D17562E007C2D1F /* Views */,
 				DFDE11A82CF6701900ECCD84 /* Models */,
-				DFDE11AA2CF6704300ECCD84 /* Views */,
 				DFDE11A92CF6703500ECCD84 /* ViewModels */,
 				DF4F43682CF27110007BD77E /* test.swift */,
+				DF88C3842CFFBA65002E9B59 /* PasswordFieldView.swift */,
 				DFF8A5F52CC3D9CB001BF758 /* ApiCalls.swift */,
 				DFDE11AC2CF6706700ECCD84 /* Resources */,
 				DFF8A5E52CC1913C001BF758 /* Preview Content */,
@@ -160,6 +139,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DF6E3C262D17562E007C2D1F /* Views */,
 			);
 			name = Notto;
 			productName = Notto;
@@ -216,18 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF8A5FA2CC844E6001BF758 /* LoginView.swift in Sources */,
-				DFAC38BD2CD929A200F69433 /* StatisticsDisplayView.swift in Sources */,
-				DFAC38B52CD9285B00F69433 /* HeaderView.swift in Sources */,
-				DFAC38BF2CD929DF00F69433 /* QuickActionsView.swift in Sources */,
-				DFAC38B22CD921B900F69433 /* MainView.swift in Sources */,
+				DF456A8C2CF9379400916F11 /* AuthService.swift in Sources */,
+				DF88C3852CFFBA65002E9B59 /* PasswordFieldView.swift in Sources */,
 				DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */,
-				DFAC38B72CD9287200F69433 /* StatsCardView.swift in Sources */,
-				DFAC38BB2CD928BA00F69433 /* RecentActivitiesView.swift in Sources */,
-				DFAC38B02CD8195C00F69433 /* RegisterView.swift in Sources */,
-				DF72FC4A2CDD431800424710 /* MainTabView.swift in Sources */,
-				DFF8A5FC2CC84558001BF758 /* InputView.swift in Sources */,
-				DFAC38B92CD928A500F69433 /* RemindersView.swift in Sources */,
+				DFAFD1BE2CF747BD005747BA /* Extentions.swift in Sources */,
+				DF456A8A2CF936FF00916F11 /* UserServices.swift in Sources */,
+				DFF9FC5A2CF7FCF700E94852 /* ContentView.swift in Sources */,
 				DFF8A5F62CC3D9CB001BF758 /* ApiCalls.swift in Sources */,
 				DF4F43692CF27110007BD77E /* test.swift in Sources */,
 				DFF8A5E02CC1913B001BF758 /* NottoApp.swift in Sources */,
