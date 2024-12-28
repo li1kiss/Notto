@@ -9,18 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var authService = AuthService()
-    @StateObject private var tabState = TabState()
-    @State var userEmail: String = ""
+    @StateObject private var appState = AppState()
     
     var body: some View {
         ZStack {
             if(authService.isLoggedIn){
                 MainTabView()
                     .environmentObject(authService)
-                    .environmentObject(tabState)
+                    .environmentObject(appState)
             }else{
                 LoginView()
                     .environmentObject(authService)
+                    .environmentObject(appState)
             }
         }
         .animatableBlur(radius: authService.showBlur ? 40 : 0)

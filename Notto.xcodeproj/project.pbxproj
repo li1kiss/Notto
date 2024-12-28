@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2AAFD42D1F859F00BE68D3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AAFD32D1F859F00BE68D3 /* AppState.swift */; };
 		DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */; };
 		DF456A8A2CF936FF00916F11 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF456A892CF936FF00916F11 /* UserServices.swift */; };
 		DF456A8C2CF9379400916F11 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF456A8B2CF9379400916F11 /* AuthService.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF2AAFD32D1F859F00BE68D3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		DF456A892CF936FF00916F11 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
 		DF456A8B2CF9379400916F11 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DF2C04BC2CD6C55D00703D30 /* AppViewModel.swift */,
+				DF2AAFD32D1F859F00BE68D3 /* AppState.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				DF456A8C2CF9379400916F11 /* AuthService.swift in Sources */,
 				DF88C3852CFFBA65002E9B59 /* PasswordFieldView.swift in Sources */,
 				DF2C04BD2CD6C55D00703D30 /* AppViewModel.swift in Sources */,
+				DF2AAFD42D1F859F00BE68D3 /* AppState.swift in Sources */,
 				DFAFD1BE2CF747BD005747BA /* Extentions.swift in Sources */,
 				DF456A8A2CF936FF00916F11 /* UserServices.swift in Sources */,
 				DFF9FC5A2CF7FCF700E94852 /* ContentView.swift in Sources */,

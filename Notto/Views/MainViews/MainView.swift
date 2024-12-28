@@ -9,7 +9,9 @@ import SwiftUI
 
 struct MainView: View {
     
-    @State private var showSettings = false
+    
+    @EnvironmentObject var appState: AppState
+    
     var body: some View {
       
         NavigationStack{
@@ -44,14 +46,14 @@ struct MainView: View {
                 .scrollIndicators(.hidden)
                 
                 VStack{
-                    HeaderView(showSettings: $showSettings)
+                    HeaderView(showSettings: $appState.showSettings)
                     Spacer()
                 }
             }
             .background(.backgroundPrimary)
             
         }
-        .fullScreenCover(isPresented: $showSettings) { // Презентуємо SettingsMainView як full screen
+        .fullScreenCover(isPresented: $appState.showSettings) { // Презентуємо SettingsMainView як full screen
                         SettingsMainView()
                     }
     }
@@ -60,6 +62,6 @@ struct MainView: View {
 
 #Preview {
     MainView()
-        .environmentObject(TabState())
+        .environmentObject(AppState())
 }
 

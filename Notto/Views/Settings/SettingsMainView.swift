@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingsMainView: View {
-    @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var appState: AppState
     
     var body: some View {
         NavigationStack{
@@ -94,7 +94,7 @@ struct SettingsMainView: View {
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden(true) // Приховує стандартну кнопку
             .navigationBarItems(leading: Button(action: {
-                presentationMode.wrappedValue.dismiss() // Повернення назад
+                appState.showSettings = false
             }) {
                 Image(systemName: "chevron.left") // Іконка стрілки
                     .font(.headline)

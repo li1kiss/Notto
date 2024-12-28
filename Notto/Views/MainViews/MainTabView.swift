@@ -7,38 +7,35 @@
 
 import SwiftUI
 
-class TabState: ObservableObject {
-    @Published var selectedTab: Int = 0 // Відстежувана змінна для вибору вкладки
-}
-
 struct MainTabView: View {
-    @EnvironmentObject var tabState: TabState
+    @EnvironmentObject var appState: AppState
 
     var body: some View {
-        TabView {
+        TabView(selection: $appState.selectedTab){
                     MainView()
                         .tabItem {
                             Image(systemName: "square.grid.2x2")
                             Text("Home")
                         }
-                    
+                        .tag(0)
                     ActivitiesView()
                         .tabItem {
                             Image(systemName: "list.bullet.rectangle")
                             Text("Activities")
                         }
-                    
+                        .tag(1)
                     StatisticsView()
                         .tabItem {
                             Image(systemName: "chart.bar")
                             Text("Statistics")
                         }
-                    
+                        .tag(2)
                     ToDoView()
                         .tabItem {
                             Image(systemName: "checkmark.square")
                             Text("To Do")
                         }
+                        .tag(3)
                 }
                 .accentColor(.blue)
         
@@ -66,29 +63,29 @@ struct ToDoView: View {
 
 
 struct TabButton: View {
-    @EnvironmentObject var tabState: TabState
+    @EnvironmentObject var appState: AppState
         var label: String
         var imageName: String
         var tag: Int
 
     var body: some View {
         VStack {
-                    Image(systemName: tabState.selectedTab == tag ? "\(imageName).fill" : imageName)
+                    Image(systemName: appState.selectedTab == tag ? "\(imageName).fill" : imageName)
                         .font(.system(size: 20))
-                        .foregroundColor(tabState.selectedTab == tag ? .blue : .gray)
+                        .foregroundColor(appState.selectedTab == tag ? .blue : .gray)
                     Text(label)
                         .font(.footnote)
-                        .foregroundColor(tabState.selectedTab == tag ? .blue : .gray)
+                        .foregroundColor(appState.selectedTab == tag ? .blue : .gray)
                 }
         .padding(.vertical, 4)
         .frame(maxWidth: .infinity)
         .onTapGesture {
-                        tabState.selectedTab = tag
+            appState.selectedTab = tag
                 }
     }
 }
 
 #Preview{
     MainTabView()
-        .environmentObject(TabState())
+        .environmentObject(AppState())
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecentActivitiesView: View {
     
-    @EnvironmentObject var tabState: TabState
+    @EnvironmentObject var appState: AppState
 
     
     var body: some View {
@@ -60,7 +60,7 @@ struct RecentActivitiesView: View {
                         Spacer()
                         
                         Button(action: {
-                            tabState.selectedTab = 1
+                            appState.selectedTab = 1
                         }) {
                             Text("See all")
                                 .fontWeight(.regular)
