@@ -89,7 +89,7 @@ struct SettingsMainView: View {
                 }
                 
             }
-           
+            .toolbar(.hidden, for: .tabBar)
             .navigationTitle("Setting")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden(true) // Приховує стандартну кнопку

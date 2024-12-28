@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @State private var showSettings = false
     var body: some View {
-        
-        
+      
         NavigationStack{
             ZStack{
                 ScrollView{
@@ -43,13 +44,16 @@ struct MainView: View {
                 .scrollIndicators(.hidden)
                 
                 VStack{
-                    HeaderView()
+                    HeaderView(showSettings: $showSettings)
                     Spacer()
                 }
             }
             .background(.backgroundPrimary)
             
         }
+        .fullScreenCover(isPresented: $showSettings) { // Презентуємо SettingsMainView як full screen
+                        SettingsMainView()
+                    }
     }
 }
 

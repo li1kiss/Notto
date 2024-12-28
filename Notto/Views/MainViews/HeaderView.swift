@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HeaderView: View {
+    
+    @Binding var showSettings: Bool
     @EnvironmentObject var authService: AuthService
     var body: some View {
         HStack {
@@ -45,15 +47,15 @@ struct HeaderView: View {
                 .buttonStyle(StandardButtonStyle())
                 
                 
-                NavigationLink(destination: {
-                    SettingsMainView()
-                }, label: {
+                Button(action: {
+                    showSettings = true
+                }) {
                     Image(systemName: "gear")
                         .font(.title2)
                         .padding(0)
                         .frame(maxWidth: 50, maxHeight: 50, alignment: .center)
                         
-                })
+                }
                 .buttonStyle(StandardButtonStyle())
             }
         }
@@ -76,6 +78,6 @@ struct StandardButtonStyle: ButtonStyle {
 }
 
 
-#Preview {
-    HeaderView()
-}
+//#Preview {
+//    HeaderView()
+//}
