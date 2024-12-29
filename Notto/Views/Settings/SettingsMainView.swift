@@ -14,7 +14,7 @@ struct SettingsMainView: View {
         NavigationStack{
             Form{
                 Section("Account"){
-                    NavigationLink(destination: EmptyView()) {
+                    NavigationLink(destination: PersonalDetailView()) {
                         HStack{
                             images(imagename: "person")
                         Text("Personal details")
